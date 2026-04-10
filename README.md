@@ -46,7 +46,7 @@ navyashree@dev:~$ ls -la ~/projects
 
 | project | stack | status |
 |---|---|---|
-| [**SLOTH**](https://github.com/Navyashree-B-C/sloth) | React · FastAPI · Whisper STT · Coqui XTTS · Docker | `● live` |
+| [**SLOTH**](https://github.com/Navyashree-B-C/sloth) | React · FastAPI · Whisper STT · Coqui XTTS | `● live` |
 | [**intelligent_inventory_system**](https://github.com/Navyashree-B-C/intelligent_inventory_system) | Python · SQLite · RBAC · Anomaly Detection | `● stable` |
 | **AI Smart Mirror** | Python · OpenCV · Gemini LLM · Firebase · RPi | `⬤ proprietary` |
 | **Academic Data Platform** | Flask · SQLAlchemy · Pandas · MySQL | `⬤ proprietary` |
