@@ -8,46 +8,40 @@
 ```
 
 ```bash
-navyashree@bengaluru:~$ whoami
+navyashree@dev:~$ whoami
 ```
 ```
-role      : Full Stack Developer + AI Engineer
-location  : Bengaluru, India
-current   : Veyon Ideations — backend dev + production DevOps
-prev      : Research Intern, IISc Bangalore
-education : M.Tech — Artificial Intelligence
-contact   : navyashreebc@gmail.com
+i build backends, ship AI into products, and manage the infra that keeps it running.
+vibe coder. cursor addict. if it's broken i'll fix it, if it doesn't exist i'll build it.
 ```
 
 ---
 
 ```bash
-navyashree@bengaluru:~$ cat /etc/production.conf
+navyashree@dev:~$ cat /etc/production.conf
 ```
 ```nginx
-# what i run in production
 server {
     listen 443 ssl;
-    server_name veyon.app;
 
-    ssl_certificate      /etc/letsencrypt/live/veyon.app/fullchain.pem;
-    ssl_certificate_key  /etc/letsencrypt/live/veyon.app/privkey.pem;
+    ssl_certificate      /etc/letsencrypt/live/domain/fullchain.pem;
+    ssl_certificate_key  /etc/letsencrypt/live/domain/privkey.pem;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000;   # FastAPI
     }
 
     location / {
-        proxy_pass http://127.0.0.1:3000;   # React frontend
+        proxy_pass http://127.0.0.1:3000;   # frontend
     }
 }
-# + PostgreSQL · backups · monitoring · systemd services
+# + PostgreSQL · Nginx · SSL · deployments · VPS management
 ```
 
 ---
 
 ```bash
-navyashree@bengaluru:~$ ls -la ~/projects
+navyashree@dev:~$ ls -la ~/projects
 ```
 
 | project | stack | status |
@@ -60,7 +54,7 @@ navyashree@bengaluru:~$ ls -la ~/projects
 ---
 
 ```bash
-navyashree@bengaluru:~$ cat tech_stack.txt
+navyashree@dev:~$ cat tech_stack.txt
 ```
 ```
 LANGUAGES    →  Python   JavaScript   SQL
@@ -68,22 +62,14 @@ BACKEND      →  FastAPI  Flask  REST APIs  SQLAlchemy
 FRONTEND     →  React  Vite  HTML5  CSS3
 AI / CV      →  OpenCV  Whisper STT  Gemini  LLM Integration
 DATABASES    →  PostgreSQL  MySQL  SQLite  Firebase
-DEVOPS       →  Docker  Nginx  SSL  systemd  GitHub Actions
-INFRA        →  Linux VPS (Hostinger)  Raspberry Pi  SSH
+DEVOPS       →  Docker  Nginx  SSL  GitHub Actions
+INFRA        →  Linux VPS  Raspberry Pi  SSH
 ```
 
 ---
 
 ```bash
-navyashree@bengaluru:~$ uptime
- 09:41:23 up 847 days,  3:12,  1 user,  load average: 0.12, 0.08, 0.05
-# production has been running. don't touch what works.
-```
-
----
-
-```bash
-navyashree@bengaluru:~$ ping navyashreebc@gmail.com
+navyashree@dev:~$ ping navyashreebc@gmail.com
 PING navyashreebc@gmail.com — response time: fast
 ^C
 --- navyashreebc@gmail.com ping statistics ---
