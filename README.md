@@ -13,7 +13,7 @@ navyashree@bengaluru:~$ whoami
 ```
 role      : Full Stack Developer + AI Engineer
 location  : Bengaluru, India
-current   : Veyon Ideations — sole backend dev + production DevOps
+current   : Veyon Ideations — backend dev + production DevOps
 prev      : Research Intern, IISc Bangalore
 education : M.Tech — Artificial Intelligence
 contact   : navyashreebc@gmail.com
